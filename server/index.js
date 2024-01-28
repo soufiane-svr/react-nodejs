@@ -1,5 +1,4 @@
 const express =require('express')
-const { default: mongoose } = require('mongoose')
 const app = express()
 const mongoosse = require('mongoose')
 mongoosse.connect('mongodb+srv://soufiane:Sousou12@cluster0.5ij9nvy.mongodb.net/mernproject?retryWrites=true&w=majority').then(()=>{
